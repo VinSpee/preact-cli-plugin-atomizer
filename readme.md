@@ -1,4 +1,4 @@
-# preact-cli-plugin-atomizer [![Build Status](https://travis-ci.org/vinspee/preact-cli-plugin-atomizer.svg?branch=master)](https://travis-ci.org/vinspee/preact-cli-plugin-atomizer)
+# preact-cli-plugin-atomizer [![Build Status](https://travis-ci.org/VinSpee/preact-cli-plugin-atomizer.svg?branch=master)](https://travis-ci.org/VinSpee/preact-cli-plugin-atomizer)
 
 >
 
