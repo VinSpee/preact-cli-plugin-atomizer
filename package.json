@@ -1,0 +1,42 @@
+{
+	"name": "preact-cli-plugin-atomizer",
+	"version": "1.0.0",
+	"description": "Use the atomic css atomizer with preact-cli",
+	"license": "MIT",
+	"repository": "vinspee/preact-cli-plugin-atomizer",
+	"author": {
+		"name": "Vince Speelman",
+		"email": "v@vinspee.me",
+		"url": "http://vinspee.me"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"prepublish": "test"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"preact",
+		"preact-cli",
+		"plugin",
+		"atomic-css",
+		"atomic css",
+		"atomizer"
+	],
+	"dependencies": {
+		"webpack-atomizer-loader": "~0.4.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	},
+	"xo": {
+		"rules": {
+			"comma-dangle": 0
+		}
+	}
+}
