@@ -1,14 +1,12 @@
 'use strict';
 
 const preactCliAtomizer = (
-	/* eslint-disable max-params */
 	config,
 	env,
 	helpers,
 	options = {
 		test: /\.((t|j)sx?|vue)$/,
 	},
-	/* eslint-enable max-params */
 ) => {
 	if (!config) {
 		throw new Error('You need to pass the webpack config to the atomizer');
@@ -19,7 +17,7 @@ const preactCliAtomizer = (
 	config.module.loaders.splice(loader.ruleIndex, 1);
 	config.module.loaders.push({
 		oneOf: [
-			loader,
+			loader.rule,
 			{
 				test: options.test,
 				loader: 'webpack-atomizer-loader',

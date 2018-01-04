@@ -6,8 +6,10 @@ const FIXTURE = {
 		module: {
 			loaders: [
 				{
-					test: /\.(css|less|s[ac]ss|styl)$/,
-					loader: 'style-loader',
+					rule: {
+						test: /\.(css|less|s[ac]ss|styl)$/,
+						loader: 'style-loader',
+					},
 				},
 			],
 		},
