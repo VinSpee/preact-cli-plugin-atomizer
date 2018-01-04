@@ -1,6 +1,6 @@
 {
 	"name": "preact-cli-plugin-atomizer",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Use the atomic css atomizer with preact-cli",
 	"license": "MIT",
 	"repository": "vinspee/preact-cli-plugin-atomizer",
